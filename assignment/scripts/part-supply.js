@@ -19,7 +19,10 @@ console.log(supplyChanges[1]);
 // 4. The last item was added by mistake. Remove it from the 'supplyChanges' 
 //    array & console.log the value removed.
 console.log('4. Removed item:');
-supplyChanges = supplyChanges.pop
+
+let removedItem = 11;
+
+supplyChanges = removedItem.pop();
 console.log(supplyChanges);
 
 
@@ -41,11 +44,11 @@ console.log('6. Showing supplyChanges...');
 supplyChanges = [ 3, 5, -6, 0, 7, 25 ]; {
     for ( i = 0; i < supplyChanges.length; i++); {
         if(i>0);
-            console.log('Added 3 parts');
+            console.log('Added x parts');
         if(i===0);
             console.log('No Change');
         if(i<0);
-            console.log('Removed 3 parts');
+            console.log('Removed x parts');
     }
 }
 
